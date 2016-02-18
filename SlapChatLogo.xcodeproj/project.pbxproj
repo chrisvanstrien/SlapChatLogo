@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83A0F2151C757FC100FAE4D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A0F2141C757FC100FAE4D3 /* AppDelegate.swift */; };
+		83A0F2171C757FC100FAE4D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A0F2161C757FC100FAE4D3 /* ViewController.swift */; };
+		83A0F21A1C757FC100FAE4D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A0F2181C757FC100FAE4D3 /* Main.storyboard */; };
+		83A0F21C1C757FC100FAE4D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A0F21B1C757FC100FAE4D3 /* Assets.xcassets */; };
+		83A0F21F1C757FC100FAE4D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A0F21D1C757FC100FAE4D3 /* LaunchScreen.storyboard */; };
+		83A0F2281C75CC3A00FAE4D3 /* RenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A0F2271C75CC3A00FAE4D3 /* RenderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		83A0F2111C757FC000FAE4D3 /* SlapChatLogo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlapChatLogo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A0F2141C757FC100FAE4D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83A0F2161C757FC100FAE4D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83A0F2191C757FC100FAE4D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83A0F21B1C757FC100FAE4D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83A0F21E1C757FC100FAE4D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83A0F2201C757FC100FAE4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83A0F2271C75CC3A00FAE4D3 /* RenderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RenderView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83A0F20E1C757FC000FAE4D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83A0F2081C757FC000FAE4D3 = {
+			isa = PBXGroup;
+			children = (
+				83A0F2131C757FC100FAE4D3 /* SlapChatLogo */,
+				83A0F2121C757FC000FAE4D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83A0F2121C757FC000FAE4D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83A0F2111C757FC000FAE4D3 /* SlapChatLogo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83A0F2131C757FC100FAE4D3 /* SlapChatLogo */ = {
+			isa = PBXGroup;
+			children = (
+				83A0F2261C757FCC00FAE4D3 /* Misc */,
+				83A0F2161C757FC100FAE4D3 /* ViewController.swift */,
+				83A0F2271C75CC3A00FAE4D3 /* RenderView.swift */,
+			);
+			path = SlapChatLogo;
+			sourceTree = "<group>";
+		};
+		83A0F2261C757FCC00FAE4D3 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				83A0F2181C757FC100FAE4D3 /* Main.storyboard */,
+				83A0F21B1C757FC100FAE4D3 /* Assets.xcassets */,
+				83A0F2201C757FC100FAE4D3 /* Info.plist */,
+				83A0F21D1C757FC100FAE4D3 /* LaunchScreen.storyboard */,
+				83A0F2141C757FC100FAE4D3 /* AppDelegate.swift */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83A0F2101C757FC000FAE4D3 /* SlapChatLogo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A0F2231C757FC100FAE4D3 /* Build configuration list for PBXNativeTarget "SlapChatLogo" */;
+			buildPhases = (
+				83A0F20D1C757FC000FAE4D3 /* Sources */,
+				83A0F20E1C757FC000FAE4D3 /* Frameworks */,
+				83A0F20F1C757FC000FAE4D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlapChatLogo;
+			productName = SlapChatLogo;
+			productReference = 83A0F2111C757FC000FAE4D3 /* SlapChatLogo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83A0F2091C757FC000FAE4D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Chris Vanstrien";
+				TargetAttributes = {
+					83A0F2101C757FC000FAE4D3 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 83A0F20C1C757FC000FAE4D3 /* Build configuration list for PBXProject "SlapChatLogo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83A0F2081C757FC000FAE4D3;
+			productRefGroup = 83A0F2121C757FC000FAE4D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83A0F2101C757FC000FAE4D3 /* SlapChatLogo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83A0F20F1C757FC000FAE4D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A0F21F1C757FC100FAE4D3 /* LaunchScreen.storyboard in Resources */,
+				83A0F21C1C757FC100FAE4D3 /* Assets.xcassets in Resources */,
+				83A0F21A1C757FC100FAE4D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83A0F20D1C757FC000FAE4D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A0F2171C757FC100FAE4D3 /* ViewController.swift in Sources */,
+				83A0F2151C757FC100FAE4D3 /* AppDelegate.swift in Sources */,
+				83A0F2281C75CC3A00FAE4D3 /* RenderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83A0F2181C757FC100FAE4D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A0F2191C757FC100FAE4D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83A0F21D1C757FC100FAE4D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A0F21E1C757FC100FAE4D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83A0F2211C757FC100FAE4D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83A0F2221C757FC100FAE4D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83A0F2241C757FC100FAE4D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlapChatLogo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChrisVanstrien.SlapChatLogo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		83A0F2251C757FC100FAE4D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlapChatLogo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChrisVanstrien.SlapChatLogo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83A0F20C1C757FC000FAE4D3 /* Build configuration list for PBXProject "SlapChatLogo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A0F2211C757FC100FAE4D3 /* Debug */,
+				83A0F2221C757FC100FAE4D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83A0F2231C757FC100FAE4D3 /* Build configuration list for PBXNativeTarget "SlapChatLogo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A0F2241C757FC100FAE4D3 /* Debug */,
+				83A0F2251C757FC100FAE4D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83A0F2091C757FC000FAE4D3 /* Project object */;
+}
